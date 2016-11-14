@@ -1,7 +1,10 @@
 package com.example.mytravelapp;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -10,4 +13,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
+    public void myFunction(View view){
+        Intent myintent = new Intent(this, Search.class);
+        startActivity(myintent);
+        Button myBtn = (Button) findViewById(R.id.button);
+        myBtn.setText("HI!");
+
+    }
+
+
 }
