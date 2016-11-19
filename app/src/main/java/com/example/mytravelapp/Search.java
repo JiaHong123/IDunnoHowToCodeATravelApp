@@ -14,19 +14,6 @@ public class Search extends AppCompatActivity {
     //assign all arrows to be public transport
     //on click
 
-    int total_cost;
 
-    int count = ; //count is the index of the list of attraction
-    if (total_cost >budget){
-        while (total_cost >budget){
-            count--;
-        }
-    }
-    else{
-        while(total_cost<budget){
-            if(total_cost>budget)
-                count++;
-        }
-    }
 
 }

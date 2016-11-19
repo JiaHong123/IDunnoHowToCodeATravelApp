@@ -19,8 +19,6 @@ public class MainActivity extends AppCompatActivity {
         startActivity(myintent);
         Button myBtn = (Button) findViewById(R.id.button);
         myBtn.setText("HI!");
-
     }
-
 
 }
