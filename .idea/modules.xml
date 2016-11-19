@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/IDunnoHowToCodeATravelApp.iml" filepath="$PROJECT_DIR$/IDunnoHowToCodeATravelApp.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/MyTravelApp.iml" filepath="$PROJECT_DIR$/MyTravelApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/travelapp50001.iml" filepath="$PROJECT_DIR$/travelapp50001.iml" />
+>>>>>>> refs/remotes/origin/master
     </modules>
   </component>
 </project>
